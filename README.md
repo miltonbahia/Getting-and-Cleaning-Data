@@ -17,13 +17,13 @@ The script performs the following processes:
 
 1 - Merges the training and the test sets to create one data set.
 2 - Extracts only the measurements on the mean and standard deviation for each measurement.
-3 - 
-Uses descriptive activity names to name the activities in the data set
-    Appropriately labels the data set with descriptive variable names. 
+3 - Adds a column with the name of the activities
+4 - Appropriately labels the data set with descriptive variable names
+5 - Writes the result to text file df_analysis.txt
+6 - Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+7 - Writes the result to text file df_summary.txt
 
-    From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
-
+ 
 ## Code Book 
 File:  df_analysis.txt
 
