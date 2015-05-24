@@ -47,13 +47,13 @@ activity_name - Name of the activities performed in the experiment (Last column 
 
 Mean and standard deviation of variables estimated from the smartphone sensors ('-XYZ' is used to denote 3-axial signals in the X, Y and Z directions). 
 
-tBodyAcc_mean_X
-tBodyAcc_mean_Y
-tBodyAcc_mean_Z
-tBodyAcc_std_X
-tBodyAcc_std_Y
-tBodyAcc_std_Z
-tGravityAcc_mean_X
+* tBodyAcc_mean_X
+* tBodyAcc_mean_Y
+* tBodyAcc_mean_Z
+* tBodyAcc_std_X
+* tBodyAcc_std_Y
+* tBodyAcc_std_Z
+* tGravityAcc_mean_X
 tGravityAcc_mean_Y
 tGravityAcc_mean_Z
 tGravityAcc_std_X
