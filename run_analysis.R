@@ -68,7 +68,7 @@ df_analysis <- join(df_analysis,al)
 rm(subs)
 rm(al)
 
-# writes the result to text file
+# writes the result to text file df_analisys.txt
 
 write.table(df_analysis,"./df_analisys.txt",row.names=F) 
 
@@ -144,6 +144,6 @@ df_summary_mean <- summarise(df_summary,Mean_tBodyAcc_mean_X = mean(tBodyAcc_mea
                              Mean_fBodyBodyGyroJerkMag_std = mean(fBodyBodyGyroJerkMag_std,na.rm = TRUE))
 
 
-# writes the result to text file
+# writes the result to text file df_summary.txt
 
 write.table(df_summary_mean,"./df_summary.txt",row.names=F) 
