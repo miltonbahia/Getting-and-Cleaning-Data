@@ -125,67 +125,67 @@ Mean values for each variable selected in the file ...
 
 * Mean_tBodyAcc_mean_X
 * Mean_tBodyAcc_mean_Y
-Mean_tBodyAcc_mean_Z
-Mean_tBodyAcc_std_X
-Mean_tBodyAcc_std_Y
-Mean_tBodyAcc_std_Z
-Mean_tGravityAcc_mean_X
-Mean_tGravityAcc_mean_Y
-Mean_tGravityAcc_mean_Z
-Mean_tGravityAcc_std_X
-Mean_tGravityAcc_std_Y
-Mean_tGravityAcc_std_Z
-Mean_tBodyAccJerk_mean_X
-Mean_tBodyAccJerk_mean_Y
-Mean_tBodyAccJerk_mean_Z
-Mean_tBodyAccJerk_std_X
-Mean_tBodyAccJerk_std_Y
-Mean_tBodyAccJerk_std_Z
-Mean_tBodyGyro_mean_X
-Mean_tBodyGyro_mean_Y
-Mean_tBodyGyro_mean_Z
-Mean_tBodyGyro_std_X
-Mean_tBodyGyro_std_Y
-Mean_tBodyGyro_std_Z
-Mean_tBodyGyroJerk_mean_X
-Mean_tBodyGyroJerk_mean_Y
-Mean_tBodyGyroJerk_mean_Z
-Mean_tBodyGyroJerk_std_X
-Mean_tBodyGyroJerk_std_Y
-Mean_tBodyGyroJerk_std_Z
-Mean_tBodyAccMag_mean
-Mean_tBodyAccMag_std
-Mean_tGravityAccMag_mean
-Mean_tGravityAccMag_std
-Mean_tBodyAccJerkMag_mean
-Mean_tBodyAccJerkMag_std
-Mean_tBodyGyroMag_mean
-Mean_tBodyGyroMag_std
-Mean_tBodyGyroJerkMag_mean
-Mean_tBodyGyroJerkMag_std
-Mean_fBodyAcc_mean_X
-Mean_fBodyAcc_mean_Y
-Mean_fBodyAcc_mean_Z
-Mean_fBodyAcc_std_X
-Mean_fBodyAcc_std_Y
-Mean_fBodyAcc_std_Z
-Mean_fBodyAccJerk_mean_X
-Mean_fBodyAccJerk_mean_Y
-Mean_fBodyAccJerk_mean_Z
-Mean_fBodyAccJerk_std_X
-Mean_fBodyAccJerk_std_Y
-Mean_fBodyAccJerk_std_Z
-Mean_fBodyGyro_mean_X
-Mean_fBodyGyro_mean_Y
-Mean_fBodyGyro_mean_Z
-Mean_fBodyGyro_std_X
-Mean_fBodyGyro_std_Y
-Mean_fBodyGyro_std_Z
-Mean_fBodyAccMag_mean
-Mean_fBodyAccMag_std
-Mean_fBodyBodyAccJerkMag_mean
-Mean_fBodyBodyAccJerkMag_std
-Mean_fBodyBodyGyroMag_mean
-Mean_fBodyBodyGyroMag_std
-Mean_fBodyBodyGyroJerkMag_mean
-Mean_fBodyBodyGyroJerkMag_std
+* Mean_tBodyAcc_mean_Z
+* Mean_tBodyAcc_std_X
+* Mean_tBodyAcc_std_Y
+* Mean_tBodyAcc_std_Z
+* Mean_tGravityAcc_mean_X
+* Mean_tGravityAcc_mean_Y
+* Mean_tGravityAcc_mean_Z
+* Mean_tGravityAcc_std_X
+* Mean_tGravityAcc_std_Y
+* Mean_tGravityAcc_std_Z
+* Mean_tBodyAccJerk_mean_X
+* Mean_tBodyAccJerk_mean_Y
+* Mean_tBodyAccJerk_mean_Z
+* Mean_tBodyAccJerk_std_X
+* Mean_tBodyAccJerk_std_Y
+* Mean_tBodyAccJerk_std_Z
+* Mean_tBodyGyro_mean_X
+* Mean_tBodyGyro_mean_Y
+* Mean_tBodyGyro_mean_Z
+* Mean_tBodyGyro_std_X
+* Mean_tBodyGyro_std_Y
+* Mean_tBodyGyro_std_Z
+* Mean_tBodyGyroJerk_mean_X
+* Mean_tBodyGyroJerk_mean_Y
+* Mean_tBodyGyroJerk_mean_Z
+* Mean_tBodyGyroJerk_std_X
+* Mean_tBodyGyroJerk_std_Y
+* Mean_tBodyGyroJerk_std_Z
+* Mean_tBodyAccMag_mean
+* Mean_tBodyAccMag_std
+* Mean_tGravityAccMag_mean
+* Mean_tGravityAccMag_std
+* Mean_tBodyAccJerkMag_mean
+* Mean_tBodyAccJerkMag_std
+* Mean_tBodyGyroMag_mean
+* Mean_tBodyGyroMag_std
+* Mean_tBodyGyroJerkMag_mean
+* Mean_tBodyGyroJerkMag_std
+* Mean_fBodyAcc_mean_X
+* Mean_fBodyAcc_mean_Y
+* Mean_fBodyAcc_mean_Z
+* Mean_fBodyAcc_std_X
+* Mean_fBodyAcc_std_Y
+* Mean_fBodyAcc_std_Z
+* Mean_fBodyAccJerk_mean_X
+* Mean_fBodyAccJerk_mean_Y
+* Mean_fBodyAccJerk_mean_Z
+* Mean_fBodyAccJerk_std_X
+* Mean_fBodyAccJerk_std_Y
+* Mean_fBodyAccJerk_std_Z
+* Mean_fBodyGyro_mean_X
+* Mean_fBodyGyro_mean_Y
+* Mean_fBodyGyro_mean_Z
+* Mean_fBodyGyro_std_X
+* Mean_fBodyGyro_std_Y
+* Mean_fBodyGyro_std_Z
+* Mean_fBodyAccMag_mean
+* Mean_fBodyAccMag_std
+* Mean_fBodyBodyAccJerkMag_mean
+* Mean_fBodyBodyAccJerkMag_std
+* Mean_fBodyBodyGyroMag_mean
+* Mean_fBodyBodyGyroMag_std
+* Mean_fBodyBodyGyroJerkMag_mean
+* Mean_fBodyBodyGyroJerkMag_std
