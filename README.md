@@ -15,7 +15,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The script performs the following processes:
 
-1 - Merges the training and the test sets to create one data set. 
+* 1 - Merges the training and the test sets to create one data set. 
     Following files list below:
     
     - 'features_info.txt': Shows information about the variables used on the feature vector.
@@ -26,24 +26,24 @@ The script performs the following processes:
     - 'test/X_test.txt': Test set.
     - 'test/y_test.txt': Test labels.
     
-2 - Extracts only the measurements on the mean and standard deviation for each measurement.
-3 - Adds a column with the name of the activities
-4 - Appropriately labels the data set with descriptive variable names
-5 - Writes the result to text file df_analysis.txt
-6 - Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-7 - Writes the result to text file df_summary.txt
+* 2 - Extracts only the measurements on the mean and standard deviation for each measurement.
+* 3 - Adds a column with the name of the activities
+* 4 - Appropriately labels the data set with descriptive variable names
+* 5 - Writes the result to text file df_analysis.txt
+* 6 - Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+* 7 - Writes the result to text file df_summary.txt
 
 ## Code Book 
 
-1 - File:  df_analysis.txt
+### 1 - File:  df_analysis.txt
 Decription: Tidy data set with the merger of the test and training data. 
 
 Variables Names:
 
-subject - It identifies the volunteer who carried out the activities of the experiment
-set - Set of source data: test or train
-activity_id - Numeric identifier activities
-activity_name - Name of the activities performed in the experiment (Last column of file)
+* subject - It identifies the volunteer who carried out the activities of the experiment
+* set - Set of source data: test or train
+* activity_id - Numeric identifier activities
+* activity_name - Name of the activities performed in the experiment (Last column of file)
 
 Mean and standard deviation of variables estimated from the smartphone sensors ('-XYZ' is used to denote 3-axial signals in the X, Y and Z directions). 
 
@@ -54,77 +54,77 @@ Mean and standard deviation of variables estimated from the smartphone sensors (
 * tBodyAcc_std_Y
 * tBodyAcc_std_Z
 * tGravityAcc_mean_X
-tGravityAcc_mean_Y
-tGravityAcc_mean_Z
-tGravityAcc_std_X
-tGravityAcc_std_Y
-tGravityAcc_std_Z
-tBodyAccJerk_mean_X
-tBodyAccJerk_mean_Y
-tBodyAccJerk_mean_Z
-tBodyAccJerk_std_X
-tBodyAccJerk_std_Y
-tBodyAccJerk_std_Z
-tBodyGyro_mean_X
-tBodyGyro_mean_Y
-tBodyGyro_mean_Z
-tBodyGyro_std_X
-tBodyGyro_std_Y
-tBodyGyro_std_Z
-tBodyGyroJerk_mean_X
-tBodyGyroJerk_mean_Y
-tBodyGyroJerk_mean_Z
-tBodyGyroJerk_std_X
-tBodyGyroJerk_std_Y
-tBodyGyroJerk_std_Z
-tBodyAccMag_mean
-tBodyAccMag_std
-tGravityAccMag_mean
-tGravityAccMag_std
-tBodyAccJerkMag_mean
-tBodyAccJerkMag_std
-tBodyGyroMag_mean
-tBodyGyroMag_std
-tBodyGyroJerkMag_mean
-tBodyGyroJerkMag_std
-fBodyAcc_mean_X
-fBodyAcc_mean_Y
-fBodyAcc_mean_Z
-fBodyAcc_std_X
-fBodyAcc_std_Y
-fBodyAcc_std_Z
-fBodyAccJerk_mean_X
-fBodyAccJerk_mean_Y
-fBodyAccJerk_mean_Z
-fBodyAccJerk_std_X
-fBodyAccJerk_std_Y
-fBodyAccJerk_std_Z
-fBodyGyro_mean_X
-fBodyGyro_mean_Y
-fBodyGyro_mean_Z
-fBodyGyro_std_X
-fBodyGyro_std_Y
-fBodyGyro_std_Z
-fBodyAccMag_mean
-fBodyAccMag_std
-fBodyBodyAccJerkMag_mean
-fBodyBodyAccJerkMag_std
-fBodyBodyGyroMag_mean
-fBodyBodyGyroMag_std
-fBodyBodyGyroJerkMag_mean
-fBodyBodyGyroJerkMag_std
+* tGravityAcc_mean_Y
+* tGravityAcc_mean_Z
+* tGravityAcc_std_X
+* tGravityAcc_std_Y
+* tGravityAcc_std_Z
+* tBodyAccJerk_mean_X
+* tBodyAccJerk_mean_Y
+* tBodyAccJerk_mean_Z
+* tBodyAccJerk_std_X
+* tBodyAccJerk_std_Y
+* tBodyAccJerk_std_Z
+* tBodyGyro_mean_X
+* tBodyGyro_mean_Y
+* tBodyGyro_mean_Z
+* tBodyGyro_std_X
+* tBodyGyro_std_Y
+* tBodyGyro_std_Z
+* tBodyGyroJerk_mean_X
+* tBodyGyroJerk_mean_Y
+* tBodyGyroJerk_mean_Z
+* tBodyGyroJerk_std_X
+* tBodyGyroJerk_std_Y
+* tBodyGyroJerk_std_Z
+* tBodyAccMag_mean
+* tBodyAccMag_std
+* tGravityAccMag_mean
+* tGravityAccMag_std
+* tBodyAccJerkMag_mean
+* tBodyAccJerkMag_std
+* tBodyGyroMag_mean
+* tBodyGyroMag_std
+* tBodyGyroJerkMag_mean
+* tBodyGyroJerkMag_std
+* fBodyAcc_mean_X
+* fBodyAcc_mean_Y
+* fBodyAcc_mean_Z
+* fBodyAcc_std_X
+* fBodyAcc_std_Y
+* fBodyAcc_std_Z
+* fBodyAccJerk_mean_X
+* fBodyAccJerk_mean_Y
+* fBodyAccJerk_mean_Z
+* fBodyAccJerk_std_X
+* fBodyAccJerk_std_Y
+* fBodyAccJerk_std_Z
+* fBodyGyro_mean_X
+* fBodyGyro_mean_Y
+* fBodyGyro_mean_Z
+* fBodyGyro_std_X
+* fBodyGyro_std_Y
+* fBodyGyro_std_Z
+* fBodyAccMag_mean
+* fBodyAccMag_std
+* fBodyBodyAccJerkMag_mean
+* fBodyBodyAccJerkMag_std
+* fBodyBodyGyroMag_mean
+* fBodyBodyGyroMag_std
+* fBodyBodyGyroJerkMag_mean
+* fBodyBodyGyroJerkMag_std
 
-2 - File:  df_summary.txt
+### 2 - File:  df_summary.txt
 Description: Independent tidy data set with the average of each variable for each activity and each subject
 
-subject - It identifies the volunteer who carried out the activities of the experiment
-activity_id - Numeric identifier activities
-activity_name - Name of the activities performed in the experiment
+* subject - It identifies the volunteer who carried out the activities of the experiment
+* activity_id - Numeric identifier activities
+* activity_name - Name of the activities performed in the experiment
 
 Mean values for each variable selected in the file ...
 
-Mean_tBodyAcc_mean_X
-Mean_tBodyAcc_mean_Y
+* Mean_tBodyAcc_mean_X
+* Mean_tBodyAcc_mean_Y
 Mean_tBodyAcc_mean_Z
 Mean_tBodyAcc_std_X
 Mean_tBodyAcc_std_Y
